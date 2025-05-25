@@ -1,3 +1,4 @@
 flask
-sqla-wrapper
 flask-login
+flask_sqlalchemy
+sqlalchemy
