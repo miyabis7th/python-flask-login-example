@@ -1,0 +1,11 @@
+# render.yaml
+services:
+  - type: web
+    name: flask-login-app
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python app.py"
+    envVars:
+      - key: SECRET_KEY
+        value: your-secret-key
